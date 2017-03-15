@@ -9,7 +9,7 @@
 
         Weather.controller('DemoCtrl',['$scope','$http', function ($scope,$http) {
             $http({
-               url: 'https://api.map.baidu.com/telematics/v3/weather',
+               url: 'http://api.map.baidu.com/telematics/v3/weather',
                 method: 'jsonp',
                 params: {
                    callback: 'JSON_CALLBACK',
